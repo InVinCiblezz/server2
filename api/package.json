@@ -6,7 +6,9 @@
     "start": "PORT=8080 nodemon ./bin/www"
   },
   "dependencies": {
+    "async-redis": "^1.1.7",
     "axios": "^0.20.0",
+    "co-wechat-api": "^3.10.0",
     "cookie-parser": "~1.4.4",
     "cors": "^2.8.5",
     "debug": "~2.6.9",
